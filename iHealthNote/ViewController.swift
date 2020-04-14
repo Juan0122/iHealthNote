@@ -13,8 +13,26 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        //註釋
+        
+        //變數
+        let index : Int = 1
+        
+        //常數
+        let opcode : Int = 2
+        let result = index + opcode
+        
+        print("結果:\( result )")
+        
+        
+        }
+    
+    override func viewWillAppear(_ animated: Bool ){
+        
+    }
     }
 
 
-}
+
 
